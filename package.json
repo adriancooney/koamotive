@@ -1,7 +1,7 @@
 {
   "name": "koamotive",
   "version": "0.0.1",
-  "description": "The Koa express",
+  "description": "The Koa Express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "koa": "~0.1.2"
+    "koa": "latest"
   }
 }

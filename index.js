@@ -1,4 +1,5 @@
-var koa = require("koa");
+var koa = require("koa"),
+	qs = require("qs");
 
 function koamotive() {
 	var app = koa.apply(this, arguments);
@@ -39,6 +40,6 @@ function koamotive() {
 	});
 
 	return app;
-}
+};
 
 module.exports = koamotive;
